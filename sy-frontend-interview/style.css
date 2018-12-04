@@ -13,9 +13,9 @@
 /* Container is 500px wide, but better to use percentages (such as "width: 100%;" and padding/margin properties) so that content can be responsive */
 
 .container { 
-	margin: auto;
+    margin: auto;
     width: 500px;
-	align-content: center;
+    align-content: center;
     padding: 50px; 
 }
 
@@ -38,14 +38,14 @@
 .title {
 	color: white;
 	background-color: #DB4006;
-    cursor: pointer;
+    	cursor: pointer;
 	border-top-left-radius: 5px;
 	border-top-right-radius: 5px;
-    padding: 20px;
-    border: none; 
-    text-align: left; 
-    outline: none;
-    font-size: 25px; 
+    	padding: 20px;
+    	border: none; 
+    	text-align: left; 
+    	outline: none;
+    	font-size: 25px; 
 	
 }
 
@@ -54,9 +54,9 @@
 	widht: 100%;
 	font-size: 20px;
 	margin-top: -17px;
-    display: block;
-    overflow: hidden;
-    background-color: #ec9371;
+    	display: block;
+    	overflow: hidden;
+    	background-color: #ec9371;
 	border-bottom-left-radius: 5px;
 	border-bottom-right-radius: 5px;
 }
