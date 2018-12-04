@@ -1,0 +1,86 @@
+/******
+	Add you style rules below in this file 
+	
+	Requirements:
+	The main container should be 500px wide and centered.
+	
+	Colors:
+	dark orange color: #DB4006
+	light orange color: #ec9371
+
+******/
+
+/* Container is 500px wide, but better to use percentages (such as "width: 100%;" and padding/margin properties) so that content can be responsive */
+
+.container { 
+	margin: auto;
+    width: 500px;
+	align-content: center;
+    padding: 50px; 
+}
+
+.item-list {
+	width: 500px; 
+	
+}
+
+
+
+.item {
+	width: 500px;
+}
+
+/*Indicate there is a hover on the title to tell user it can be clicked and acted upon. */
+.title:hover {
+    background-color: #555;
+}
+
+.title {
+	color: white;
+	background-color: #DB4006;
+    cursor: pointer;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+    padding: 20px;
+    border: none; 
+    text-align: left; 
+    outline: none;
+    font-size: 25px; 
+	
+}
+
+.description {
+	padding: 20px;
+	widht: 100%;
+	font-size: 20px;
+	margin-top: -17px;
+    display: block;
+    overflow: hidden;
+    background-color: #ec9371;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+
+
+.close {
+	float: right;
+	padding: 10px;
+	font-size: 30px;
+} 
+
+/* To indicate user can use "X" to close element. Typically darkred should be chosen but it
+matches too closely to the background of the title. Yellow is more visible*/
+.close:hover {
+	color: yellow;
+}
+
+
+
+
+
+
+
+
+
+
+
